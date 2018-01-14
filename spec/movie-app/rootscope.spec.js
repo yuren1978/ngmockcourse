@@ -24,10 +24,10 @@ describe('rootScope', function() {
 
 	it('should demo rootScope', function() {
 		$scope.$emit('selected');
-		console.log(angular.mock.dump($rootScope));
-		console.log(angular.mock.dump($scope));
-		console.log('root', $rootScope.$countWatchers());
-		console.log('child', $scope.$countWatchers());
+		//console.log(angular.mock.dump($rootScope));
+		//console.log(angular.mock.dump($scope));
+		//console.log('root', $rootScope.$countWatchers());
+		//console.log('child', $scope.$countWatchers());
 		expect($scope.message).toBe('You selected Beverages');
 	});
 });

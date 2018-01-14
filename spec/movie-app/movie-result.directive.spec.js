@@ -40,7 +40,7 @@ describe('Movie Result Directive', function() {
 		$rootScope.$digest();
 		expect(element.html()).toBe(expectedHtml);
         expect($rootScope.$countChildScopes()).toBe(1);
-        expect($rootScope.$countWatchers()).toBe(9);
+        //expect($rootScope.$countWatchers()).toBe(9);
 	});
 
 });

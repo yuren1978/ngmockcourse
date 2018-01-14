@@ -17,7 +17,7 @@ angular.module('movieApp', ['ui.bootstrap', 'ngRoute', 'omdb', 'movieCore'])
 		  });
 
 	$locationProvider.html5Mode(false);	
-	console.log($locationProvider.html5Mode());	  
-	console.log('app loading..')
+	//console.log($locationProvider.html5Mode());	  
+	//console.log('app loading..')
 		  
 });
