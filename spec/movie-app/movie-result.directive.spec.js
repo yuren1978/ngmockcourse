@@ -39,8 +39,8 @@ describe('Movie Result Directive', function() {
 		var element = $compile('<movie-result result="result"></movie-result')($rootScope);
 		$rootScope.$digest();
 		expect(element.html()).toBe(expectedHtml);
-        expect($rootScope.$countChildScopes()).toBe(1);
-        //expect($rootScope.$countWatchers()).toBe(9);
+       expect($rootScope.$countChildScopes()).toBe(1);
+       expect($rootScope.$countWatchers()).toBe(10);
 	});
 
 });
